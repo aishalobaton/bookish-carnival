@@ -8,3 +8,8 @@ st.write("Parque de Diversiones")
 image = Image.open('midway.jpg')
 
 st.image(image, caption='Parque')
+
+
+texto = st.text_input('Bienvenidos', 'Diviertanse')
+st.write('Hola', texto)
+

@@ -5,4 +5,6 @@ st.title("Carnaval")
 
 st.header("Festival")
 st.write("Parque de Diversiones")
-image = Image.open()
+image = Image.open('midway.jpg')
+
+st.image(image, caption='Parque')

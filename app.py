@@ -33,3 +33,12 @@ with col2:
     st.write('La comida es deliciosa')
   if modo == 'Música':
     st.write('La música es buena')
+
+st.subheader("Uso de botones")
+if st.button('Presiona el botón'):
+  st.write('Por qué lo presionaste?')
+
+else:
+  st.write('Por qué no lo has presionado?')
+
+
